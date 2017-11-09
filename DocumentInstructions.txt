@@ -1,0 +1,21 @@
+1) Available Programs:
+client3.c is the formal client code in the project.
+server4.c is the formal server code in the project.
+manager.c is the formal manager code in the project.
+project.c is the library code in the project.
+project.h is the C header file of project.c in the project.
+
+2) Programming Results:
+screenshot_XXX: screenshots of the running system.
+RawMaterialsX.txt: store received JSON strings by the manager.
+RecvInfo.txt: stores display data on the screen of the manager.
+StructureInfo.XXX: store parsed C structures by the manager
+* Because the file, ServerReceive.txt, which stores received flows by the server is easy to be bigger than 1 Gb, I do not submit it as a supporting document.
+
+3) References or Supporting APIs by others
+jsmn.c is the library code of JSMN (https://github.com/zserge/jsmn).
+jsmn.h is the C header file of JSMN.
+simple.c is the file referred by me to parse JSON strings into C structures. (https://github.com/zserge/jsmn/tree/master/example)
+
+4£©Others
+client1.c and client2.c are draft clients. They were used to develop and test. Now because of gradual improvements of the system, they are not available.

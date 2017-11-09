@@ -1,0 +1,10 @@
+client3.c is the client code in the project.
+server4.c is the server code in the project.
+manager.c is the manager code in the project.
+project.c is the library code in the project.
+project.h is the C header file of project.c in the project.
+
+jsmn.c is the library code of JSMN (https://github.com/zserge/jsmn).
+jsmn.h is the C header file of JSMN.
+
+screenshot_XXX are screenshots of the running system.
